@@ -1,2 +1,33 @@
-<link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
-<canvas id="game-canvas" width="640" height="640"></canvas>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SPACE INVADERS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background">
+    <div id="hero"></div>
+    <!-- <div class="enemy"></div> -->
+    <div id="missiles"></div>
+    <div id="enemies"></div>
+    <h1 id="score">Your score = 0</h1>
+    <button id="start" onclick=startButton()>START</button>
+    <button id="restart" onclick=location.reload()>RESTART</button>
+    <div id="instruction">
+      <h3>INSTRUCTION</h3>
+      <ul>
+        <li>press <strong>left/right</strong>  cursor to move hero</li><br>
+        <li>press <strong>spacebar</strong> spacebar to shoot the enemy</li>
+      </ul>
+    </div>
+    <div id="cpr">
+      <p>fadlulazmi.2019</p>
+    </div>
+  </div>
+  
+
+  <script src="script.js">
+  </script>
+
+</body>
+</html>

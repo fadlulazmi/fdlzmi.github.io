@@ -1,21 +1,107 @@
-body, html{
-  background-color: #222;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+#background {
+  background-image: url('sky-828648_960_720.jpg');
+
+  height: 650px;
+  width: 1350px; 
 }
 
-canvas {
-  display: block;
-  margin: auto;
-  position :absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+#hero {
+  background-image: url('rocket.png');
+
+
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  top: 550px;
+  left: 640px;
+}
+
+.enemy {
+  background-image: url('monster.png');
+  height: 32px;
+  width: 27px;
+  position: absolute;
+  top: 100px;
+  left: 650px;
+
+}
+
+#missiles {
+  height: 650px;
+  width: 1350px;
+  position: absolute;
+}
+
+.missile {
+  background-image: url('bullet.png');
+  height: 24px;
+  width: 24px;
+  position: absolute;
+}
+
+
+#enemies {
+  height: 650px;
+  width: 1350px;
+  position: absolute;
+}
+
+
+
+#start {
+  background-color: #4CAF50;
+  border: thick;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  top: 5px;
+  left: 1000px;
+  position: relative;
+}
+
+#restart {
+  background-color: #4CAF50;
+  border: thick;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  top: 5px;
+  left: 100px;
+  position: relative;
+}
+
+#score{
+  background-color: #4CAF50;
+  border: thick;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  top: 5px;
+  left: 10px;
+  position: absolute;
+}
+
+#instruction{
+  color: whitesmoke;
+  /* text-align: justify; */
+  width: 80px;
   
-  image-rendering: optimizeSpeed;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: optimize-contrast
+  position: absolute;
+  margin-left: 2px;
+  font-weight: 100px;
+}
+
+#cpr{
+  left: 1200px;
+  top: 600px;
+  position: absolute;
+  background-color: teal;
+  height: 35px;
+  width: 105px;
 }
